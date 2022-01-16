@@ -17,12 +17,37 @@
         <!-- quando voce passa o mouse o cursor se modifica quando fica sobre esse link!
         o que isso significa?
         isso significa que quando voce passar o mouse em cima do link voce sera direcionado para algum conteúdo.
-        como que vai funcionar?? dentro do <a href=""> voce vai definir qual é destino que é para aquele link te levar(por exemplo "nós temos aqui arquivos que criamos nas aulas
-        passadas. vamos usar esse lista.html"quando a pessoa clicar nesse link aqui eu quero que ela seja direcionada para pagina listas.html então dentro do <a href=""> eu tenho 
-        que colocar listas.html "<a href="listas.html">" ).-->
-        <a name="">texto do link</a>
+        como que vai funcionar?? dentro do <a href=""> voce vai definir qual é destino que é para aquele link te levar(por exemplo "nós temos 
+        aqui arquivos que criamos nas aulas
+        passadas. vamos usar esse lista.html"quando a pessoa clicar nesse link aqui eu quero que ela seja direcionada para pagina listas.html 
+        então dentro do <a href=""> eu tenho 
+        que colocar listas.html "<a href="listas.html">").
+        para que uma pagina seja exibida sem ter que fechar a primeira abrindo em uma nova guia ou em uma nova janela como que vamos fazer??
+        Para isso é necessário adicionar um atributo que é o "TARGET" isso dentro da tag  a abertura dela  voce vai colocar o atributo TARGET 
+        dentro da tag Href 
+        (exemplo "<a href="listas.html" target="_blank">"")/ para  abrir na propria pagina "padrão" os sites utilizam a tag SELF 
+            (exemplo"<a href="listas.html" target="_SELF") -->
+        <!--Mas e quando nós trabalhamos com pastas com diretórios diferentes?? as páginas não saõ encontradas!!
+        Mas porque isso aconteceu??
+        Por que agora os meus documentos estão dentro da pasta (exemplo:"pages") e o que acaba acontecendo aqui??
+        quando eu quero linkar um arquivo dentro de uma determinada pasta eu eu preciso informar a a pasta completa(o caminho completo 
+        desse aquivo). 
+        (exemplo: "então nesse casso eu coloco só o nome do arquivo eu estaria procurado no diretório atual
+        (que seria a pasta onde o arquivo não se encontra)
+        (por exemplo: EU quero linkar "página1" a "link-img.html" que se encontra em uma sub-pasta).
+        então não adiantaria eu colocar "página1.html" para linkar em "link-img.html" por que o "página.html" não acharia  meu arquivo.
+        isso significa que "página1" procuraria "link-img" dentro de sua pasta mas não acharia por que seria o arquivo que esta em uma sub-pasta.
+        isso faria que "pagina1" desse como "página não encontrada" ou "página inexistente"
+        para que o pagina encontre um arquivo dentro de um diretório temos que direcional a paginal para o diretório.(por exemplo: se "página1" 
+        que encontrar "link-img" temos dar a direção.
+        para dar direção dentro de arquivo por exemplo utilizamos a "/". o que vem antes da / é a pagina e o que vem depois é o aquivo que voce quer 
+        linkar ).
+        agora se voce quer fazer o inverso voce deve utilizar da seguinte forma diretório/pagina.mas como faz isso da mesma forma mas utilizando ".."
+        antes da barra ficaria ../ 
+        <a href="pages(pagina)/link-img>-->
+            <a name="">texto do link</a>
         <!--o <a name="">serve para nomear e não direcionar para algum lugar. o name e utilizado quando voce tem uma pagina muito grande com
         muito conteúdo e voce quer rolar assim a navegação até certo ponto dessa pagina. Então voce vai utilizar as tag <a href=""> e <a name="">
-        paralelamente, junto, uma vai completar a outra. -->
+        paralelamente, junto, uma vai completar a outra.-->
     </body>
 </html>

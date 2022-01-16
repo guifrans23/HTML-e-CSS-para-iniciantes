@@ -1,0 +1,11 @@
+Ordem dos meus arquivos do projeto Html(ordem de leitura)
+
+primeiro
+listas
+seo-títulos
+estruturas-html5
+estruturas-html5-2
+link-img
+link-img2
+página1
+página2
