@@ -1,8 +1,18 @@
+ /*comentarios no css são em /**/ */
  a{
     color: red; 
     text-decoration: none ;
-    font-size: 10px;
+    font-size: 30px;
 }
 h1{
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif; 
 } 
+a{
+    color: purple; (247, 247, 211);
+} 
+#segundo{
+            color: orange;
+}
+/*o # é usado para definição de classe*/
+
+ 
