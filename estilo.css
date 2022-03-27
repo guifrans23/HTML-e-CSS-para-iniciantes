@@ -1,4 +1,4 @@
- /*comentarios no css são em /**/ */
+ /*comentarios no css são em /**/ 
  a{
     color: red; 
     text-decoration: none ;
@@ -8,11 +8,20 @@ h1{
     font-family: Helvetica, sans-serif; 
 } 
 a{
-    color: purple; (247, 247, 211);
+    color: green 
 } 
 #segundo{
-            color: orange;
+            color: orange  
 }
+
+    body p a.link {
+        
+        color: green;
+          }   
+
+
+
+
 /*o # é usado para definição de classe*/
 
  
